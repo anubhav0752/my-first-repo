@@ -71,13 +71,14 @@ marks = 100
 
 #30 or less, padh le bhai
 
-if(marks >= 90):
-    print('A')
-if(marks >= 80):
-    print('B')
+ 
 if(marks >= 70):
     print('C')
 if(marks >= 60):
     print('D')
 if(marks <= 30):
     print('padh le bhai')
+
+# code by anubhav
+name = input("What's your name")
+print("Hello",  + name + "! Nice to meet you.")
